@@ -1,0 +1,301 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 785273 */
+  src: url('//at.alicdn.com/t/font_785273_hrsx6qwjcy7.eot');
+  src: url('//at.alicdn.com/t/font_785273_hrsx6qwjcy7.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_785273_hrsx6qwjcy7.woff') format('woff'),
+  url('//at.alicdn.com/t/font_785273_hrsx6qwjcy7.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_785273_hrsx6qwjcy7.svg#iconfont') format('svg');
+}
+
+/*会话 输入框图标 6 图标 默认系统色 */
+ .icon-face,.icon-maikefeng, .icon-shexiangji, .icon-hongbao, .icon-xiangji, .icon-tupian{
+ 	font-family:"iconfont" !important;
+	font-size: 100%;
+	font-style: normal;
+ } 
+.icon-face::before{
+	content:"\e653";
+}
+.icon-maikefeng::before{
+	content:"\e61f";
+}
+ .icon-shexiangji::before{
+ 	content:"\e61c";
+}
+ .icon-hongbao::before{
+ 	content:"\e678";
+}
+ .icon-xiangji::before{
+ 	content:"\e631";
+}
+.icon-tupian::before{
+	content:"\e6d3";
+}
+/*会话 输入框四宫图标  QQ电话 视频电话 收藏 发红包*/
+
+.weibiaoti,
+.track,
+.classroom,
+.sameService,
+.tableware,
+.tutoring,
+.music,
+.reading,
+.sports,
+.tenNews,
+.live,
+.application,
+.clothing,
+.esports,
+.telephone,
+.phoneBook,
+.back,
+.user,
+.pass,
+.set,
+.group,
+.day,
+.Flicking,
+.Interest,
+.search-1,
+.collection,
+.file,
+.wallet,
+.palette,
+.shopping,
+.members,
+.near,
+.bubbles,
+.star,
+.addDialog,
+.qrCode,
+.AddContact,
+.search,
+.contact,
+.anime,
+.night,
+.photo,
+.coordinates,
+.thePublic,
+.aspect,
+.trends,
+.game,
+.friend{
+	font-family:"iconfont" !important;
+	font-size: 80%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    line-height: 2rem;
+	padding-left: .3rem;
+}
+/* user color */ 
+.game:before{
+	content:"\e64a";
+	color:#0fb8f3;		
+}
+.track::before{
+	content:"\e677";
+	color:#fda355;
+}
+.aspect:before{
+	content:"\e611";	
+	color:#00d2a3;	
+}
+.shopping:before{
+	content:"\e60b";
+	color:#ed5f49;		
+}
+.esports::before{			
+	content:"\e616";
+	color:#fbd04d;
+}
+.clothing::before{		
+	content:"\e65a";
+	color:#fdbf36;
+}
+.anime:before{
+	content:"\e856";	
+	color:#ef5e5b;	
+}
+.classroom::before{		
+	content:"\e64e";
+	color:#11b7f3;
+}
+.sameService::before{		
+	content:"\e61e";
+	color:#f15d5b;
+}
+.tableware::before{	
+	content:"\e76f";
+	color:#fda355;
+}
+.tutoring::before{       
+	content:"\e630";
+	color:#88cf43;
+}
+.music::before{		
+	content:"\e613";
+	color:#88cf43;
+}
+.reading::before{		
+	content:"\e62e";
+	color:#00d1a2;
+}
+.sports::before{  		
+	content:"\e615";
+	color:#00b5f5;
+}
+.tenNews::before{		
+	content:"\e61b";
+	color:#11b7f3;
+}
+.live::before{		
+	content:"\e8ae";
+	color:#fe698f;
+}
+.application::before{		
+	content:"\e61d";
+	color:#11b7f3;
+}
+
+
+/*默认系统色*/
+.weibiaoti::before{
+	content: "\e61a";
+}
+.telephone::before{
+	content:"\e63b";
+}
+.phoneBook::before{
+	content:"\e63a";
+}
+.back:before{
+	content:"\e612";
+}
+.user:before ,.contact:before{
+	content:"\e604";
+}
+.pass:before{
+	content:"\e62f";		
+}
+.set:before{
+	content:"\e693";
+}
+.group:before{
+	content:"\e610";		
+}
+.day:before{
+	content:"\e680";		
+}
+.Flicking:before{
+	content:"\e6a3";		
+}
+.Interest:before{
+	content:"\e77b";		
+}
+.search-1:before{
+	content:"\e60d";		
+}
+.collection:before{
+	content:"\e60c";		
+}
+.file:before{
+	content:"\e60f";		
+}
+.wallet:before{
+	content:"\e63e";		
+}
+.palette:before{
+	content:"\e671";		
+}
+
+.members:before{
+	content:"\e625";		
+}
+.near:before{
+	content:"\e60a";		
+}
+.bubbles:before{
+	content:"\e609";		
+}
+.star:before{
+	content:"\e608";	
+}
+.addDialog:before{
+	content:"\e699";			
+}
+.qrCode:before{
+	content:"\e605";	
+}
+.AddContact:before{
+	content:"\e606";		
+}
+.search:before{
+	content:"\e60e";		
+}
+
+
+.night:before{
+	content:"\e603";		
+}
+.photo:before{
+	content:"\e6ba";		
+}
+.coordinates:before{
+	content:"\e600";		
+}
+.thePublic:before{
+	content:"\e614";		
+}
+
+.trends:before{
+	content:"\e602";		
+}
+
+.friend:before{
+	content:"\e601";		
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Lv 等级分类 //at.alicdn.com/t/font_785273_lok7ekstqdi.js */
+.icon-huangguan,.icon-taiyang,.icon-moonbyueliang,.icon-xing1{
+   width: 1.25em; height: 1.25em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+  }
+
+/** 会话四宫格图标 **/  
+.icon-cancelordercopy, .icon-shoucang, .icon-dianhua1, .icon-yinle1, .icon-qiaoqiaohua, .icon-doudong, .icon-lianxiren, .icon-hongbao1, .icon-wenjian1, .icon-weizhi1, .icon-shipin{
+	width: 3rem; height: 3rem;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+/** 电话黄页图标 **/
+.icon-gonggongfuwu,.icon-daibancheliangbaoxian,.icon-kuaidi,.icon-lvyou,.icon-yinhangqia,.icon-yiyuan,.icon-renyuanjietinglianjietianjia,.icon-99{
+	width: 3rem; height: 3rem;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+/* 钻石*/
+.icon-zuanshi{
+	width: 3rem; 
+	height: 3rem;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}

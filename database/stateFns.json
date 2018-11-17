@@ -1,0 +1,24 @@
+{
+	"intro":"好友联系人+群组",
+	"example":{"id":"唯一id号","title":"文本","icon":"图标class","state":"启用状态(Boolean)","news":"消息推送","href":"href路径","data":"href传送数据内容","xxxxxxxx":"游戏 日迹 看点 京东购物 企鹅电竞 鹅漫U品 动漫 阅读 音乐 直播 应用宝 运动  吃喝玩乐 同城服务 腾讯新闻 腾讯课堂 企鹅辅导"},
+	"main":[ 
+		{"id":"10001","title":"游戏","icon":"game","state":true,"news":"","href":"game","data":[]},
+		{"id":"10002","title":"日迹","icon":"track","state":true,"news":"","href":"track","data":[]},
+		{"id":"10003","title":"看点","icon":"aspect","state":true,"news":"","href":"aspect","data":[]},
+		{"id":"10004","title":"京东购物","icon":"shopping","state":true,"news":"","href":"shopping","data":[]},
+		{"id":"10005","title":"企鹅电竞","icon":"esports","state":true,"news":"","href":"esports","data":[]},
+		{"id":"10006","title":"鹅漫U品","icon":"clothing","state":true,"news":"","href":"clothing","data":[]},
+		{"id":"10007","title":"动漫","icon":"anime","state":true,"news":"","href":"anime","data":[]},
+		{"id":"10008","title":"阅读","icon":"reading","state":false,"news":"","href":"reading","data":[]},
+		{"id":"10009","title":"音乐","icon":"music","state":false,"news":"","href":"music","data":[]},
+		{"id":"10010","title":"直播","icon":"live","state":false,"news":"","href":"live","data":[]},
+		{"id":"10011","title":"应用宝","icon":"application","state":true,"news":"","href":"application","data":[]},
+		{"id":"10012","title":"运动","icon":"sports","state":false,"news":"","href":"sports","data":[]},
+		{"id":"10013","title":"吃喝玩乐","icon":"tableware","state":false,"news":"","href":"tableware","data":[]},
+		{"id":"10014","title":"同城服务","icon":"sameService","state":false,"news":"","href":"sameService","data":[]},
+		{"id":"10015","title":"腾讯新闻","icon":"tenNews","state":false,"news":"","href":"tenNews","data":[]},
+		{"id":"10016","title":"腾讯课堂","icon":"classroom","state":false,"news":"","href":"classroom","data":[]},
+		{"id":"10017","title":"企鹅辅导","icon":"tutoring","state":false,"news":"","href":"tutoring","data":[]}
+	]
+}
+

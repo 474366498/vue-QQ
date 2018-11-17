@@ -1,0 +1,116 @@
+html {
+   font-family: sans-serif;
+   -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      width:100%;
+      height:100%;
+      display: block;
+}
+body {
+   margin: 0;
+   width:100%;
+   height:100%;
+   display: block;
+}
+
+ul,li,dl,dt,dd,form,h1,h2,h3,h4,h5,p,a,input,button,textarea{
+   padding: 0;
+   margin: 0;
+   border:none;
+   list-style:none;
+   text-decoration: none;
+}
+#app{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+.l , .left {
+   float:left;
+}
+.r , .right {
+   float:right;
+}
+.t_l{
+   text-align:left;
+}
+.t_r{
+   text-align: right;
+}
+input:focus{
+   outline:0;
+}
+strong{
+   font-weight:500;
+}
+
+/* 消息 联系人 搜索框*/
+.searchLink {
+      padding:0.5rem 1rem;
+      background:#dedede;
+}
+.searchLink a{
+   width:100%;
+   display:inline-block;
+   background:white;
+   text-align:center;
+   color:#999;
+   border-radius:.5rem;
+   border:1px solid #ddd;
+   box-shadow:0px 0px 2px #ccc;
+}
+.search-1::before {
+   font-size:2.5rem;
+   line-height:2.6rem;
+}
+.search-1{
+   line-height:2.6rem;
+   display:inline-flex;
+}
+
+/* 联系人 动态 三宫格图标*/
+.navIconLinkThree{
+   padding-top:.5rem;
+   overflow: hidden;
+   background: white;
+}
+.navIconLinkThree .navIconLink{
+   width:33.33%;
+   display: inline-grid;
+   float:left;
+   text-align: center;
+}
+.navIconLinkThree .navIconLink i {
+   display: block;
+   font-size: 2.6rem;
+   max-height: 2.6rem;
+   height:2.5rem;
+   box-sizing: border-box;
+   color:#0BB7F5;
+}
+.navIconLinkThree .navIconLink i.group ,.navIconLinkThree .navIconLink i.thePublic{
+   padding-top: .4rem;
+}
+.navIconLinkThree .navIconLink i.thePublic{
+   color:#FCA651;
+}
+.navIconLinkThree .navIconLink i.star{
+   padding-top:.5rem;
+   color:#fdd04f;
+}
+.navIconLinkThree .navIconLink i.coordinates{
+   padding-top:.5rem;
+   color:#f15d5b;
+}
+.navIconLinkThree .navIconLink i.Interest{
+   padding-top:.5rem;
+   color:#fdd051;
+}
+.navIconLinkThree .navIconLink span{
+   font-size:1rem;
+   color:black;
+   line-height:2.5rem; 
+}
+.navIconLinkThree .navIconLink i::before{
+   padding-left:0;
+}
